@@ -23,7 +23,7 @@ public class SeleniumTest extends BrowserHooks {
 	  SelHomePage objSel = new SelHomePage(driver);
 	  
 	  //Opening the selenium homepage URL
-	  driver.get(PropFileHandler.fetchKey(AutoConstants.URL.URL));
+	  driver.get("http://www.seleniumhq.org");
 	  
 	  //Type Bahuabali in the search selenium text box and click GO
 	  objSel.searchSelenium("bahubali");
