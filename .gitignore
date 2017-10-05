@@ -1,0 +1,5 @@
+.settings
+/lib
+/target
+/test-output
+/bin
