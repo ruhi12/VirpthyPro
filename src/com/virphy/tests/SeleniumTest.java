@@ -16,7 +16,7 @@ import com.virphy.utils.PropFileHandler;
 public class SeleniumTest extends BrowserHooks {
   
   @Test(dataProvider="hardCodedBrowsers")
-  public void openSeleniumURL(String browser,String version,String os, Method method) throws FileNotFoundException, IOException {
+  public void searchSeleniumTest(String browser,String version,String os, Method method) throws FileNotFoundException, IOException {
 	  this.createDriver(browser, version, os, method.getName());
 	  WebDriver driver = this.getWebDriver();
 	  //Page object for selenium homepage
