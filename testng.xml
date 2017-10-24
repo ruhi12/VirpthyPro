@@ -6,7 +6,7 @@
     <classes>
       <class name="com.virphy.tests.SeleniumHome"/>
     </classes>
-  </test> FirefoxTest -->
+  </test> FirefoxTest. -->
   <!-- <test name="IETest">
   <parameter name="browser" value="IE"></parameter>
     <classes>
