@@ -5,12 +5,12 @@ node {
    }
    stage('Build and Test') {
      echo 'Build is triggered with test execution'
-     sh 'mvn compile'
+     sh 'mvn clean compile'
     }
     
     stage('build & SonarQube Scan') {
     withSonarQubeEnv('My SonarQube Server') {
-      sh 'mvn clean package sonar:sonar'
+      //sh 'mvn clean package sonar:sonar'
        } // SonarQube taskId is automatically attached to the pipeline context
     }
    
